@@ -1,0 +1,420 @@
+.rounded-circle{
+    object-fit: cover;
+}
+body {
+    /* 設定したい画像
+    background-image: url(../img/back2.jpg);
+    /* 画像を上下左右中央寄せ
+    background-position: center center;
+    /* タイル状には並べないように指定
+    background-repeat: no-repeat;
+    /* コンテンツの高さが画像の高さより大きい時、動かないように固定
+    background-attachment: fixed;
+    /* 表示するディスプレイの大きさに基づいて、背景画像を縦横比を固定しながら調整
+    background-size: cover;
+    /* 画像が読み込まれる前の背景色の指定*/
+    background-color:#f2f2f2;
+}
+
+/*--------------------------------
+　フォント
+---------------------------------*/
+
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://themes.googleusercontent.com/static/fonts/kaushanscript/v1/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+  }
+
+/*--------------------------------
+　全体
+---------------------------------*/
+
+#wrapper {
+    background-color: #fff;
+  }
+
+  .inner {
+    max-width: 1320px; /*1320*/
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #contents {
+    padding-top: 100px;
+  }
+
+.section-title-block{
+  text-align: center;
+}
+
+.test{
+  font-size:130px;
+  margin-left:10px;
+}
+
+/*--------------------------------
+　Section
+---------------------------------*/
+
+.section .inner {
+  padding: 80px 100px;
+}
+
+@media (max-width: 767.98px) {
+  .section .inner{
+    padding: 80px 10px;
+  }
+}
+
+.section .section-title-block {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section .section-title {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: .2em;
+  font-family:'Kaushan Script';
+  display: inline-block;
+  font-size: 84px;
+  line-height: 1;
+  margin-bottom: 70px;
+}
+
+.section .section-desc {
+  text-align: center;
+}
+
+.two-column-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.two-column-image {
+  width: 33%;
+}
+
+.two-column-image img {
+  margin: 0 auto;
+}
+
+.two-column-desc {
+  width: 62%;
+}
+
+/*--------------------------------
+　ナビ
+---------------------------------*/
+
+.navbar{
+    padding-top:1rem;
+    background: rgba(255,255,255,0.5);
+    display: flex;
+    position: fixed;
+    z-index:1;
+    justify-content: space-between;
+    transition: .5s;
+    width: 100%;
+}
+
+.nav-link{
+    font-family:'Kaushan Script';
+    font-size:170%;
+}
+
+/*--------------------------------
+　about
+---------------------------------*/
+
+#about .two-column-desc {
+  width: 62%;
+}
+
+.section-table{
+  margin-top:20px;
+  margin-left:20px;
+  text-align: left;
+}
+
+.section-table tr{
+  margin-bottom:10px;
+}
+
+.section-table th{
+  font-size:30px;
+}
+
+.section-table td{
+  padding-left:100px;
+  font-size:20px;
+}
+
+.lead{
+  margin-top:20px;
+  margin-left:20px;
+  text-align:left;
+}
+
+.two-column-image {
+  width: 33%;
+}
+
+.two-column-image img {
+  margin: 0 auto;
+}
+
+.two-column-desc {
+  width: 62%;
+}
+
+
+.two-column-image {
+  background-image: url("../img/sample.jpeg");
+  width:  200px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center center;
+  display:inline-block;
+}
+
+
+/*--------------------------------
+　ヘッダー
+---------------------------------*/
+
+#header{
+    overflow: hidden;
+}
+
+.jumbotron {
+    background-image: url(../img/back3.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    height: 100vh;
+    padding-top:0px;
+    padding-bottom:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.index-h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title {
+    font-family:'Kaushan Script';
+    font-size:200%;
+    font-weight: 60;
+    line-height: 1;
+    letter-spacing: .1em;
+}
+
+.logo-sub{
+    font-family:'Kaushan Script';
+    font-size:120%;
+}
+
+/*--------------------------------
+ コンタクト
+---------------------------------*/
+
+#contact .contact-list ul {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0 auto;
+}
+
+#contact .contact-list li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#contact .contact-list li a {
+  color: #333;
+}
+
+#contact .contact-list li img {
+  width: 100px;
+  height:auto;
+}
+
+#contact .contact-list-desc {
+  font-weight: bold;
+}
+
+#contact .contact-other {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+/*--------------------------------
+ フッター
+---------------------------------*/
+
+#footer {
+    background-color: #333;
+  }
+  
+  #footer .inner {
+    padding: 30px;
+  }
+  
+  #footer .footer-link ul {
+    font-family:'Kaushan Script';
+    letter-spacing: .1em;
+    list-style: none;
+    text-transform: lowercase;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+  }
+
+  #footer .footer-link li {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  
+  #footer .footer-link li a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  #footer .copyright {
+    font-size: 10px;
+    color: #8c8c8c;
+    text-align: center;
+  }
+
+
+
+
+.nav-justified {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.navbar .nav-justified > li {
+    display: table-cell;
+    width: 100%;
+}
+titlebox{
+    height:550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2class{
+    text-align: center;
+}
+.card{
+    background-color:white;
+}
+
+  /* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media
+ (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media
+ (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
