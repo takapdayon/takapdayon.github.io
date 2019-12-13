@@ -17,7 +17,7 @@ body {
 }
 
 /*--------------------------------
-　フォント
+　font
 ---------------------------------*/
 
 @font-face {
@@ -28,7 +28,7 @@ body {
   }
 
 /*--------------------------------
-　全体
+　all
 ---------------------------------*/
 
 #wrapper {
@@ -114,7 +114,7 @@ body {
 }
 
 /*--------------------------------
-　ナビ
+　nav
 ---------------------------------*/
 
 .navbar{
@@ -190,7 +190,49 @@ body {
 
 
 /*--------------------------------
-　ヘッダー
+　skill
+---------------------------------*/
+
+#skill .card{
+  margin-bottom:30px;
+}
+
+.skill-desc-title{
+  padding-top:20px;
+  font-size:40px;
+  text-align:center;
+}
+
+.skill-desc .text{
+  padding-top:5px;
+  text-align:center;
+}
+
+.skillrating{
+  table-layout:fixed;
+  margin-bottom:40px;
+  width:100%;
+}
+
+.skillrating .width20{
+  width:20%;
+}
+
+.skillrating .width30{
+  width:30%;
+}
+
+.skillrating .width50{
+  width:50%;
+}
+
+.skillrating th, .skillrating td{
+  padding:0.75rem;
+  text-align:center;
+}
+
+/*--------------------------------
+　header
 ---------------------------------*/
 
 #header{
@@ -230,7 +272,7 @@ body {
 }
 
 /*--------------------------------
- コンタクト
+ contact
 ---------------------------------*/
 
 #contact .contact-list ul {
@@ -269,7 +311,7 @@ body {
 
 
 /*--------------------------------
- フッター
+ footer
 ---------------------------------*/
 
 #footer {

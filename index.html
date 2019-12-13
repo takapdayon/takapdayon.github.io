@@ -81,21 +81,21 @@
         <h2 class="section-title">-About-</h2>
         <div class="row featurette">
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto rounded-circle" src="img/aboutimg.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto rounded-circle" src="img/about/aboutimg.jpg" alt="Generic placeholder image">
           </div>
           <div class="col-md-7">
             <table class="section-table">
               <tbody>
                 <tr>
-                  <th>名前</th>
+                  <th scope="row">名前</th>
                   <td>takaP</td>
                 </tr>
                 <tr>
-                  <th>qiita</th>
+                  <th scope="row">qiita</th>
                   <td><a href="https://qiita.com/takapp">takapp</a></td>
                 </tr>
                 <tr>
-                  <th>twitter</th>
+                  <th scope="row">twitter</th>
                   <td><a href="https://twitter.com/takapdayon">takapdayon</a></td>
                 </tr>
               </tbody>
@@ -120,7 +120,9 @@
       </div>
       <div class="card-deck">
         <div class="card">
-          <img class="bd-placeholder-img card-img-top" src="img/works/myhp.jpg" width="100%" height="250">
+          <a href="https://takapdayon.github.io">
+            <img class="bd-placeholder-img card-img-top" src="img/works/myhp.jpg" width="100%" height="250">
+          </a>
           <div class="card-body">
             <h5 class="card-title">ポートフォリオ</h5>
             <p class="card-text">自分のポートフォリオです。</p>
@@ -153,73 +155,143 @@
         </p>
       </div>
       <div class="card-wrapper">
+
         <div class="card">
-          <div class="skill-icon">
-            <p class="test">
-              <i class="fab fa-java"></i>
-            </p>
-          </div>
           <div class="skill-desc">
-            <h3 class="skill-desc-title">フロントサイド</h3>
-            <div class="rating">
-              <p class="rate rate4"></p>
-            </div>
-            <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <h3 class="skill-desc-title">フロントエンド</h3>
+            <p class="text">学生の頃と、独学で多少触れていました。基本的な事は全般できます。</p>
           </div>
+          <table class="skillrating">
+            <thead>
+              <tr>
+                <th class="widrh20" scope="col">技術</th>
+                <th class="width30" scope="col">経験年数</th>
+                <th class="width50" scope="col">レベル</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>html</td>
+                <td>1年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>css</td>
+                <td>1年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>javascript</td>
+                <td>1年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+
         <div class="card">
-          <div class="skill-icon">
-            <img src="img/skill/icon_skill.png" alt="">
-          </div>
           <div class="skill-desc">
             <h3 class="skill-desc-title">サーバサイド</h3>
-            <div class="rating">
-              <p class="rate rate3"></p>
-            </div>
-            <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="text">フレームワークに関してはSpring,Djangoを勉強中です。</p>
           </div>
+          <table class="skillrating">
+            <thead>
+              <tr>
+                <th class="widrh20" scope="col">技術</th>
+                <th class="width30" scope="col">経験年数</th>
+                <th class="width50" scope="col">レベル</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>java</td>
+                <td>2年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>python</td>
+                <td>1年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+
         <div class="card">
-          <div class="skill-icon">
-            <img src="img/skill/icon_skill.png" alt="">
-          </div>
           <div class="skill-desc">
             <h3 class="skill-desc-title">インフラ</h3>
-            <div class="rating">
-              <p class="rate rate4"></p>
-            </div>
-            <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="text">業務で主に触れていました。</p>
           </div>
+          <table class="skillrating">
+            <thead>
+              <tr>
+                <th class="widrh20" scope="col">技術</th>
+                <th class="width30" scope="col">経験年数</th>
+                <th class="width50" scope="col">レベル</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ネットワーク</td>
+                <td>2年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>windowsサーバ</td>
+                <td>2年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Linuxサーバ</td>
+                <td>2年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>docker</td>
+                <td>1年</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="card">
-          <div class="skill-icon">
-            <img src="img/skill/icon_skill.png" alt="">
-          </div>
-          <div class="skill-desc">
-            <h3 class="skill-desc-title">その他</h3>
-            <div class="rating">
-              <p class="rate rate4"></p>
-            </div>
-            <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="skill-icon">
-            <img src="img/skill/icon_skill.png" alt="">
-          </div>
-          <div class="skill-desc">
-            <h3 class="skill-desc-title">資格</h3>
-            <div class="rating">
-              <p class="rate rate3"></p>
-            </div>
-            <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-
+<!--
   <hr class="featurette-divider">
   <section class="section" id="hobby">
       <div class="inner">
@@ -243,6 +315,8 @@
         </div>
       </div>
     </section>
+-->
+
 
   <hr class="featurette-divider">
   <section class="section" id="contact">
