@@ -285,6 +285,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  margin: 0 auto;
 }
 
 #contact .contact-list li a {
